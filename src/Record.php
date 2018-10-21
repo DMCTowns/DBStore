@@ -1,6 +1,6 @@
 <?php
 
-namespace Reapit\Database;
+namespace DMCTowns\DBStore;
 
 
 /**
@@ -171,7 +171,7 @@ abstract class Record implements RecordInterface{
 				if(($value = $this->getValue($field)) !== null){
 					$return[] = $field . '=\'' . $this->getValue($field) . '\'';
 				}else{
-					//throw new Exception('Error: \Reapit\Database\MySQL\Record::_getKeyWhereClause - no value set for '.$field);
+					//throw new Exception('Error: \DMCTowns\DBStore\MySQL\Record::_getKeyWhereClause - no value set for '.$field);
 					return null;
 				}
 			}

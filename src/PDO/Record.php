@@ -1,9 +1,9 @@
 <?php
 /**
  * PDO Record
- * @author Diccon Towns <dtowns@reapit.com>
+ * @author Diccon Towns <diccon@also-festival.com>
  */
-namespace Reapit\Database\PDO;
+namespace DMCTowns\DBStore\PDO;
 
 class Record{
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Reapit\Database;
+namespace DMCTowns\DBStore;
 
 abstract class Table implements TableInterface{
 
@@ -93,7 +93,7 @@ abstract class Table implements TableInterface{
 	public function getName(){
 		return $this->name;
 	}
-	
+
 
 }
 

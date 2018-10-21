@@ -4,7 +4,7 @@
  * @author Diccon Towns
  */
 
-namespace Reapit\Database;
+namespace DMCTowns\DBStore;
 
 interface DatabaseInterface{
 

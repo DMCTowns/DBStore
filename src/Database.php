@@ -4,7 +4,7 @@
  * @author Diccon Towns
  */
 
-namespace Reapit\Database;
+namespace DMCTowns\DBStore;
 
 abstract class Database implements DatabaseInterface{
 

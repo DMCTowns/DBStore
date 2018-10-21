@@ -1,6 +1,6 @@
 <?php
 
-namespace Reapit\Database;
+namespace DMCTowns\DBStore;
 
 interface RecordInterface{
 

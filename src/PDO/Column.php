@@ -1,8 +1,11 @@
 <?php
+/**
+ * PDO Column
+ * @author Diccon Towns <diccon@also-festival.com>
+ */
+namespace DMCTowns\DBStore\PDO;
 
-namespace Reapit\Database\PDO;
-
-class Column extends \Reapit\Database\Column{
+class Column extends \DMCTowns\DBStore\Column{
 
 	/**
 	 * Gets column SQL

@@ -1,10 +1,10 @@
 <?php
 /**
  * Abstract Column class
- * @author Diccon Towns <dtowns@reapit.com>
+ * @author Diccon Towns <diccon@also-festival.com>
  */
 
-namespace Reapit\Database;
+namespace DMCTowns\DBStore;
 
 /**
  * Abstract class to describe column in database table

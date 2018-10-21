@@ -1,10 +1,10 @@
 <?php
 /**
  * PDO Table object
- * @author Diccon Towns <dtowns@reapit.com>
+ * @author Diccon Towns <diccon@also-festival.com>
  */
 
-namespace Reapit\Database\PDO;
+namespace DMCTowns\DBStore\PDO;
 
 /**
  * Class to handle tables in the PDO database environment
@@ -437,7 +437,7 @@ class Table{
 	/**
 	 * Gets new record based on table
 	 * @param array $fieldData
-	 * @return \Reapit\Database\RecordInterface
+	 * @return \DMCTowns\DBStore\RecordInterface
 	 */
 	public function getNewRecord($fieldData=null){
 		return new Record($this, $fieldData);
@@ -445,7 +445,7 @@ class Table{
 
 	/**
 	 * Gets new column
-	 * @return \Reapit\Database\ColumnInterface
+	 * @return \DMCTowns\DBStore\ColumnInterface
 	 */
 	public function getNewColumn(){
 		return new Column();

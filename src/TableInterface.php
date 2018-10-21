@@ -1,6 +1,6 @@
 <?php
 
-namespace Reapit\Database;
+namespace DMCTowns\DBStore;
 
 interface TableInterface{
 
@@ -84,7 +84,7 @@ interface TableInterface{
 
 	/**
 	 * Gets new column
-	 * @return \Reapit\Database\ColumnInterface
+	 * @return \DMCTowns\DBStore\ColumnInterface
 	 */
 	public function getNewColumn();
 
