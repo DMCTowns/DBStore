@@ -1,0 +1,7 @@
+{
+    "name": "DMCTowns/DBStore",
+    "description": "A set of PDO database classes to allow straightforward connection to MySQL and SQL Server databases",
+    "require": {
+        "php": "^5.3.6 || ^7.0"
+    }
+}
