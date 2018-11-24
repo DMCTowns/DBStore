@@ -86,14 +86,14 @@ interface RecordInterface{
 	 * @param array $options
 	 * @return boolean
 	 */
-	public function load(array $options=null);
+	public function retrieve(array $options=null);
 
 	/**
 	 * Saves data to database
 	 * @param array $fieldData
 	 * @return boolean
 	 */
-	public function save(array $fieldData=null);
+	public function store(array $fieldData=null);
 
 	/**
 	 * Deletes record from database
