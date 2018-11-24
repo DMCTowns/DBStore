@@ -450,7 +450,7 @@ class Record{
 	 * @param array $options
 	 * @return boolean
 	 */
-	public function load(array $options=null){
+	public function retrieve(array $options=null){
 
 		if($this->_loadedFromDB){
 			return true;
@@ -470,7 +470,7 @@ class Record{
 	 * Saves data to database
 	 * @param array $fieldData
 	 */
-	public function save(array $fieldData=null){
+	public function store(array $fieldData=null){
 
 		if($fieldData){
 			$this->setValues($fieldData);
